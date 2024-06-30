@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio5</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <div id="todo-container">
+      <h1>Todo List</h1>
+      <h3>Nueva Tarea</h3>
+      <div class="tool">
+        <input
+          type="text"
+          id="new-task-input"
+          placeholder="Descripción de la tarea"
+        />
+        <button onclick="addTask()">Agregar</button>
+      </div>
+
+      <h3>Resumen</h3>
+      <p>Total de Tareas: <span id="total-tasks">0</span></p>
+      <p>Tareas Realizadas: <span id="completed-tasks">0</span></p>
+      <hr>
+      <ul id="task-list"></ul>
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
